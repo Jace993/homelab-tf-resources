@@ -2,8 +2,8 @@ name: Main Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   call-other-pipeline:
-    uses: ./.github/workflows/reusable.yml
+    uses: Jace993/homelab-pipelines/.github/workflows/reusable.yml
