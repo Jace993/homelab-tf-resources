@@ -1,0 +1,9 @@
+name: Main Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  call-other-pipeline:
+    uses: ./.github/workflows/reusable.yml
