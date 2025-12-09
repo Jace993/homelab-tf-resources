@@ -6,4 +6,4 @@ on:
 
 jobs:
   call-other-pipeline:
-    uses: Jace993/homelab-pipelines/.github/workflows/reusable.yml
+    uses: Jace993/homelab-pipelines/.github/workflows/reusable.yml@main
