@@ -5,5 +5,5 @@ on:
     branches: [main]
 
 jobs:
-  call-other-pipeline:
+  terraform:
     uses: Jace993/homelab-pipelines/.github/workflows/reusable.yml@main
